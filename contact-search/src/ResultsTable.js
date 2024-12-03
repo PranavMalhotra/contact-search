@@ -4,7 +4,7 @@ import "./ResultsTable.css";
 
 const ResultsTable = ({ contacts, onSelectContact }) => {
   const [currentPage, setCurrentPage] = React.useState(0);
-  const [selectedContactId, setSelectedContactId] = React.useState(null); // Track selected contact
+  const [selectedContactId, setSelectedContactId] = React.useState(null);
   const itemsPerPage = 2;
 
   const handlePageChange = ({ selected }) => {
@@ -17,7 +17,7 @@ const ResultsTable = ({ contacts, onSelectContact }) => {
   );
 
   const handleSelection = (contact) => {
-    setSelectedContactId(contact.id === selectedContactId ? null : contact.id); // Toggle selection
+    setSelectedContactId(contact.id === selectedContactId ? null : contact.id);
     onSelectContact(contact.id === selectedContactId ? null : contact);
   };
 
