@@ -1,0 +1,98 @@
+.search-filters-container {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 30px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.9);
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  .search-filters-container:hover {
+    transform: scale(1.02);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15), -10px -10px 20px rgba(255, 255, 255, 1);
+    border: 1px solid #007bff;
+    background: linear-gradient(145deg, #eef5ff, #ffffff);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .input-field {
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: inset 3px 3px 7px rgba(0, 0, 0, 0.1), inset -3px -3px 7px rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+  }
+  
+  
+  .input-field:hover,
+  .dropdown:hover {
+    border-color: #007bff;
+    background-color: #eef5ff;
+  }
+  
+  .input-field:focus,
+  .dropdown:focus {
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.7), inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-field::placeholder {
+    color: #aaa;
+    font-style: italic;
+    font-size: 14px;
+  }
+  
+  .search-button {
+    display: block;
+    margin: 25px auto 0;
+    padding: 14px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(145deg, #007bff, #0056b3);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background: linear-gradient(145deg, #0056b3, #003f8c);
+    transform: translateY(-4px);
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3), -6px -6px 12px rgba(255, 255, 255, 1);
+  }
+  
+  .search-button:active {
+    transform: translateY(2px);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2), -2px -2px 6px rgba(255, 255, 255, 0.8);
+  }
+  
+  @media (max-width: 768px) {
+    .filters {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  

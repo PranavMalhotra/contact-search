@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "dob": "1990-01-01",
+      "email": "john.doe@example.com",
+      "phone": "123-456-7890",
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "dob": "1985-05-12",
+      "email": "jane.smith@example.com",
+      "phone": "987-654-3210",
+      "street": "456 Elm St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "90001"
+    },
+    {
+      "id": 3,
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "dob": "1992-03-27",
+      "email": "michael.brown@example.com",
+      "phone": "555-123-4567",
+      "street": "789 Oak Ave",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60601"
+    },
+    {
+      "id": 4,
+      "firstName": "Emily",
+      "lastName": "Johnson",
+      "dob": "1995-07-04",
+      "email": "emily.johnson@example.com",
+      "phone": "222-333-4444",
+      "street": "321 Maple Dr",
+      "city": "Houston",
+      "state": "TX",
+      "zip": "77001"
+    },
+    {
+      "id": 5,
+      "firstName": "David",
+      "lastName": "Williams",
+      "dob": "1988-11-19",
+      "email": "david.williams@example.com",
+      "phone": "666-777-8888",
+      "street": "654 Pine St",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85001"
+    },
+    {
+      "id": 6,
+      "firstName": "Sophia",
+      "lastName": "Martinez",
+      "dob": "1993-02-14",
+      "email": "sophia.martinez@example.com",
+      "phone": "444-555-6666",
+      "street": "987 Cedar Ln",
+      "city": "San Diego",
+      "state": "CA",
+      "zip": "92101"
+    },
+    {
+      "id": 7,
+      "firstName": "James",
+      "lastName": "Garcia",
+      "dob": "1987-09-08",
+      "email": "james.garcia@example.com",
+      "phone": "777-888-9999",
+      "street": "135 Birch Blvd",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "75201"
+    },
+    {
+      "id": 8,
+      "firstName": "Olivia",
+      "lastName": "Hernandez",
+      "dob": "1991-12-25",
+      "email": "olivia.hernandez@example.com",
+      "phone": "111-222-3333",
+      "street": "246 Spruce Ct",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "73301"
+    },
+    {
+      "id": 9,
+      "firstName": "Daniel",
+      "lastName": "Lopez",
+      "dob": "1996-06-10",
+      "email": "daniel.lopez@example.com",
+      "phone": "888-999-0000",
+      "street": "369 Willow Way",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94101"
+    },
+    {
+      "id": 10,
+      "firstName": "Isabella",
+      "lastName": "Clark",
+      "dob": "1994-04-30",
+      "email": "isabella.clark@example.com",
+      "phone": "999-000-1111",
+      "street": "753 Aspen St",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33101"
+    }
+  ]  
+  
